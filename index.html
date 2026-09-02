@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polityka prywatności — CrossFit Personal Tracker</title>
+<meta name="description" content="CrossFit Personal Tracker nie zbiera żadnych danych. Wszystko, co zapiszesz, zostaje na Twoim urządzeniu.">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:title" content="Polityka prywatności — CrossFit Personal Tracker">
+<meta property="og:description" content="Bez konta, bez serwera, bez analityki. Twoje treningi zostają na Twoim urządzeniu.">
+<meta property="og:image" content="icon-512.png">
+<style>
+  :root {
+    --brand: #E0501F;
+    --bg: #F6F5F4;
+    --card: #FFFFFF;
+    --ink: #1A1614;
+    --muted: #6B615C;
+    --line: #E4DEDA;
+    --ok-bg: #FDF0EA;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --brand: #FF7A45;
+      --bg: #100E0D;
+      --card: #1A1716;
+      --ink: #EFE7E3;
+      --muted: #A0938D;
+      --line: #2E2926;
+      --ok-bg: #241A15;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 22px 80px; }
+
+  header { display: flex; align-items: center; gap: 18px; margin-bottom: 34px; }
+  .icon { width: 76px; height: 76px; border-radius: 18px; overflow: hidden; flex: none; box-shadow: 0 4px 16px rgba(0,0,0,.18); }
+  .icon img { display: block; width: 100%; height: 100%; }
+  header h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 4px; letter-spacing: -0.02em; }
+  header p { margin: 0; color: var(--muted); font-size: .95rem; }
+
+  nav { display: flex; gap: 8px; margin-bottom: 28px; }
+  nav button {
+    font: inherit; font-size: .9rem; font-weight: 600;
+    padding: 7px 16px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--line); background: var(--card); color: var(--muted);
+  }
+  nav button[aria-selected="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+
+  .lede {
+    background: var(--ok-bg); border: 1px solid var(--line); border-left: 4px solid var(--brand);
+    border-radius: 12px; padding: 18px 20px; margin: 0 0 32px; font-size: 1.05rem;
+  }
+  .lede strong { color: var(--brand); }
+
+  h2 {
+    font-size: 1.08rem; letter-spacing: -0.01em; margin: 36px 0 10px;
+    padding-top: 22px; border-top: 1px solid var(--line);
+  }
+  section > h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 7px; }
+  li::marker { color: var(--brand); }
+  a { color: var(--brand); }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em; background: var(--ok-bg); padding: 1px 5px; border-radius: 5px; }
+
+  .meta { color: var(--muted); font-size: .88rem; margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="icon"><img src="icon-512.png" alt="Ikona aplikacji CrossFit Personal Tracker"></div>
+    <div>
+      <h1>Polityka prywatności</h1>
+      <p>CrossFit Personal Tracker — iPhone, Apple Watch, Android</p>
+    </div>
+  </header>
+
+  <nav>
+    <button id="tab-pl" aria-selected="true" onclick="pick('pl')">Polski</button>
+    <button id="tab-en" aria-selected="false" onclick="pick('en')">English</button>
+  </nav>
+
+  <section id="pl">
+    <p class="lede">
+      Ta aplikacja <strong>nie zbiera żadnych danych</strong>. Nie ma konta, serwera,
+      analityki ani reklam. Wszystko, co zapiszesz — rekordy, serie, historia treningów —
+      zostaje na Twoim urządzeniu i nigdzie stąd nie wychodzi.
+    </p>
+
+    <h2>1. Kto odpowiada za aplikację</h2>
+    <p>
+      CrossFit Personal Tracker jest prywatnym projektem osoby fizycznej. Aplikacja
+      działa w całości na Twoim telefonie i zegarku — nie prowadzimy żadnej infrastruktury,
+      która mogłaby przyjmować Twoje dane.
+    </p>
+
+    <h2>2. Jakie dane przechowuje aplikacja</h2>
+    <p>Dane, które sam wpisujesz, czyli:</p>
+    <ul>
+      <li>ćwiczenia i ich kategorie,</li>
+      <li>rekordy życiowe (maksy),</li>
+      <li>zapisane serie: ciężar, powtórzenia, data,</li>
+      <li>historia treningów i ulubione ćwiczenia,</li>
+      <li>ustawienia aplikacji (jednostki, zaokrąglanie, wygląd, język).</li>
+    </ul>
+    <p>
+      Aplikacja nie prosi o imię, e-mail, numer telefonu ani żaden identyfikator.
+      Nie zbiera lokalizacji, kontaktów, zdjęć, danych zdrowotnych z Apple Health
+      ani Google Fit, ani identyfikatorów reklamowych.
+    </p>
+
+    <h2>3. Gdzie te dane są przechowywane</h2>
+    <p>
+      Wyłącznie w pamięci Twojego urządzenia, w prywatnym obszarze aplikacji
+      chronionym przez system (SwiftData na iPhonie i Apple Watch, Room na Androidzie).
+      Żadna inna aplikacja nie ma do nich dostępu, a my nie mamy do nich dostępu w ogóle.
+    </p>
+    <p>
+      <strong>Jeden wyjątek, o którym warto wiedzieć:</strong> jeśli masz włączoną
+      systemową kopię zapasową (iCloud na iPhonie, kopia zapasowa Google na Androidzie),
+      baza treningowa trafi do tej kopii — tak jak dane innych Twoich aplikacji.
+      To Twoja kopia, na Twoim koncie Apple lub Google, objęta ich zasadami
+      i szyfrowaniem. My nie mamy do niej wglądu. Możesz ją wyłączyć w ustawieniach systemu.
+    </p>
+
+    <h2>4. Czy dane opuszczają urządzenie</h2>
+    <p>Nie. Aplikacja:</p>
+    <ul>
+      <li>nie wysyła żadnych zapytań sieciowych — wersja na Androida nie ma nawet uprawnienia <code>INTERNET</code>,</li>
+      <li>nie korzysta z analityki, statystyk użycia ani narzędzi do raportowania awarii,</li>
+      <li>nie zawiera reklam ani kodu śledzącego,</li>
+      <li>nie udostępnia niczego stronom trzecim — nie ma komu, bo nie ma serwera,</li>
+      <li>działa w pełni bez internetu.</li>
+    </ul>
+
+    <h2>5. Apple Watch</h2>
+    <p>
+      Jeśli używasz zegarka, treningi zapisane na nim synchronizują się z iPhone'em
+      bezpośrednio, mechanizmem Apple (Watch Connectivity), po połączeniu między
+      Twoimi dwoma sparowanymi urządzeniami. Dane nie przechodzą przez żaden nasz
+      serwer — ani przez chmurę.
+    </p>
+
+    <h2>6. Kopia zapasowa i eksport danych</h2>
+    <p>
+      W ustawieniach możesz wyeksportować swoje dane do pliku JSON i zaimportować je
+      z powrotem. To Ty decydujesz, gdzie ten plik trafi — na dysk telefonu, do chmury,
+      do wiadomości. Od chwili, gdy go zapiszesz lub wyślesz, plik podlega zasadom
+      wybranej przez Ciebie usługi, a nie tej polityce.
+    </p>
+
+    <h2>7. Uprawnienia</h2>
+    <p>
+      Aplikacja może poprosić o zgodę na <strong>powiadomienia</strong> — wyłącznie po to,
+      by odezwać się, gdy skończy się odliczanie timera. Powiadomienia są lokalne,
+      generuje je Twoje urządzenie. Nie ma powiadomień wysyłanych z zewnątrz (push).
+    </p>
+
+    <h2>8. Dzieci</h2>
+    <p>
+      Aplikacja nie jest kierowana do dzieci i nie zbiera danych od nikogo — niezależnie
+      od wieku użytkownika.
+    </p>
+
+    <h2>9. Twoje dane, Twoja kontrola</h2>
+    <ul>
+      <li><strong>Wgląd i poprawianie:</strong> wszystkie dane widzisz i edytujesz w aplikacji.</li>
+      <li><strong>Usunięcie:</strong> odinstalowanie aplikacji trwale usuwa wszystkie dane z urządzenia. Nie zostaje żadna kopia po naszej stronie, bo taka nigdy nie powstała.</li>
+      <li><strong>Przeniesienie:</strong> eksport do pliku JSON pozwala zabrać dane ze sobą.</li>
+    </ul>
+    <p>
+      Ponieważ nie przetwarzamy Twoich danych osobowych poza Twoim urządzeniem, nie ma
+      zbioru, do którego moglibyśmy zrealizować wniosek o dostęp lub usunięcie w rozumieniu RODO —
+      pełną kontrolę masz bezpośrednio w aplikacji i w ustawieniach systemu.
+    </p>
+
+    <h2>10. Zmiany polityki</h2>
+    <p>
+      Jeśli aplikacja kiedykolwiek zacznie robić coś więcej z danymi, ta strona zostanie
+      zaktualizowana wcześniej, a data poniżej się zmieni. Historia zmian jest jawna
+      w repozytorium tej strony.
+    </p>
+
+    <h2>11. Kontakt</h2>
+    <p>
+      Pytania dotyczące prywatności: <a href="mailto:TWOJ-ADRES@EMAIL">TWOJ-ADRES@EMAIL</a>
+    </p>
+
+    <p class="meta">Ostatnia aktualizacja: 2 września 2026</p>
+  </section>
+
+  <section id="en" hidden>
+    <p class="lede">
+      This app <strong>collects no data</strong>. There is no account, no server, no
+      analytics and no ads. Everything you record — your maxes, your sets, your training
+      history — stays on your device and never leaves it.
+    </p>
+
+    <h2>1. Who is behind the app</h2>
+    <p>
+      CrossFit Personal Tracker is a personal project by an individual developer. The app
+      runs entirely on your phone and watch — there is no infrastructure on our side that
+      could receive your data.
+    </p>
+
+    <h2>2. What the app stores</h2>
+    <p>Only what you type in yourself:</p>
+    <ul>
+      <li>exercises and their categories,</li>
+      <li>personal records (maxes),</li>
+      <li>logged sets: weight, reps, date,</li>
+      <li>workout history and favourites,</li>
+      <li>app settings (units, rounding, appearance, language).</li>
+    </ul>
+    <p>
+      The app never asks for a name, e-mail, phone number or any identifier. It does not
+      collect location, contacts, photos, Apple Health or Google Fit data, or advertising IDs.
+    </p>
+
+    <h2>3. Where it is stored</h2>
+    <p>
+      Only in your device's storage, inside the app's private, system-protected container
+      (SwiftData on iPhone and Apple Watch, Room on Android). No other app can read it,
+      and we cannot read it at all.
+    </p>
+    <p>
+      <strong>One exception worth knowing about:</strong> if you have system backup enabled
+      (iCloud on iPhone, Google backup on Android), the training database is included in that
+      backup, just like the data of your other apps. That backup is yours, in your Apple or
+      Google account, under their terms and encryption. We have no access to it, and you can
+      turn it off in your system settings.
+    </p>
+
+    <h2>4. Does anything leave the device</h2>
+    <p>No. The app:</p>
+    <ul>
+      <li>makes no network requests — the Android build does not even hold the <code>INTERNET</code> permission,</li>
+      <li>uses no analytics, usage statistics or crash reporting,</li>
+      <li>contains no ads and no tracking code,</li>
+      <li>shares nothing with third parties — there is nobody to share it with, as there is no server,</li>
+      <li>works fully offline.</li>
+    </ul>
+
+    <h2>5. Apple Watch</h2>
+    <p>
+      If you use the watch, the sets you log there sync straight to your iPhone through
+      Apple's Watch Connectivity, over the link between your two paired devices. The data
+      never passes through a server of ours, or through the cloud.
+    </p>
+
+    <h2>6. Backup and export</h2>
+    <p>
+      In Settings you can export your data to a JSON file and import it back. Where that
+      file goes is entirely your choice — local storage, a cloud drive, a message. Once you
+      save or send it, that file follows the rules of the service you picked, not this policy.
+    </p>
+
+    <h2>7. Permissions</h2>
+    <p>
+      The app may ask for <strong>notification</strong> permission for one purpose only: to
+      tell you when a timer finishes. Those notifications are local, generated by your own
+      device. There are no push notifications from outside.
+    </p>
+
+    <h2>8. Children</h2>
+    <p>
+      The app is not directed at children, and it collects no data from anyone, whatever
+      their age.
+    </p>
+
+    <h2>9. Your data, your control</h2>
+    <ul>
+      <li><strong>Access and correction:</strong> every piece of data is visible and editable in the app.</li>
+      <li><strong>Deletion:</strong> uninstalling the app permanently removes all of it from your device. Nothing remains on our side, because nothing was ever created there.</li>
+      <li><strong>Portability:</strong> the JSON export lets you take your data with you.</li>
+    </ul>
+    <p>
+      Because we never process your personal data outside your own device, there is no
+      record set against which a GDPR access or erasure request could be fulfilled — full
+      control sits directly in the app and in your system settings.
+    </p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>
+      If the app ever starts doing more with your data, this page will be updated first and
+      the date below will change. The change history is public in this page's repository.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+      Privacy questions: <a href="mailto:TWOJ-ADRES@EMAIL">TWOJ-ADRES@EMAIL</a>
+    </p>
+
+    <p class="meta">Last updated: 2 September 2026</p>
+  </section>
+
+</div>
+
+<script>
+  function pick(lang) {
+    for (const l of ['pl', 'en']) {
+      document.getElementById(l).hidden = l !== lang;
+      document.getElementById('tab-' + l).setAttribute('aria-selected', String(l === lang));
+    }
+    document.documentElement.lang = lang;
+  }
+  if ((navigator.language || '').slice(0, 2) !== 'pl') pick('en');
+</script>
+</body>
+</html>
